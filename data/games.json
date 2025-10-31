@@ -40,6 +40,16 @@
     "image": "game.png"
   },
   {
+    "name": "Axis Football",
+    "directory": "axis",
+    "image": "game.png"
+  },
+  {
+    "name": "Backrooms",
+    "directory": "backrooms",
+    "image": "game.png"
+  },
+  {
     "name": "Baldi's Basics",
     "directory": "baldis-basics",
     "image": "game.png"
@@ -65,6 +75,11 @@
     "image": "game.png"
   },
   {
+    "name": "Bendy And The Ink Machine",
+    "directory": "bendy",
+    "image": "game.png"
+  },
+  {
     "name": "Bitlife",
     "directory": "bitlife",
     "image": "game.png"
@@ -80,6 +95,11 @@
     "image": "game.png"
   },
   {
+    "name": "Bloxorz",
+    "directory": "bloxorz",
+    "image": "game.png"
+  },
+  {
     "name": "Boxing Random",
     "directory": "boxingrandom",
     "image": "game.png"
@@ -90,6 +110,16 @@
     "image": "game.png"
   },
   {
+    "name": "Candy Crush",
+    "directory": "candycrush",
+    "image": "game.png"
+  },
+  {
+    "name": "CircloO",
+    "directory": "circloo",
+    "image": "game.png"
+  },
+  {
     "name": "CSGO Case Clicker",
     "directory": "csgoclicker",
     "image": "game.png"
@@ -97,6 +127,11 @@
   {
     "name": "Chess",
     "directory": "chess",
+    "image": "game.png"
+  },
+  {
+    "name": "Clash Of Vikings",
+    "directory": "Clash Of Vikings",
     "image": "game.png"
   },
   {
@@ -115,6 +150,11 @@
     "image": "game.png"
   },
   {
+    "name": "CoreBall",
+    "directory": "coreball",
+    "image": "game.png"
+  },
+  {
     "name": "Crossy Road",
     "directory": "crossyroad",
     "image": "game.png"
@@ -122,6 +162,11 @@
   {
     "name": "Cuphead",
     "directory": "cuphead",
+    "image": "game.png"
+  },
+  {
+    "name": "Curve Ball 3d",
+    "directory": "curveball",
     "image": "game.png"
   },
   {
@@ -209,9 +254,24 @@
     "directory": "fnaf4",
     "image": "game.png"
   },
-    {
+  {
     "name": "FNAF 4 Halloween",
     "directory": "fnaf4-spooky",
+    "image": "game.png"
+  },
+  {
+    "name": "FNAF 5 Sister Location",
+    "directory": "fnafsl",
+    "image": "game.png"
+  },
+  {
+    "name": "FNAF 6 Pizzeria Simulator",
+    "directory": "fnaf6",
+    "image": "game.png"
+  },
+  {
+    "name": "FNAW",
+    "directory": "fnaw",
     "image": "game.png"
   },
   {
@@ -255,8 +315,18 @@
     "image": "game.png"
   },
   {
+    "name": "Granny",
+    "directory": "granny",
+    "image": "game.png"
+  },
+  {
     "name": "GX-Launcher",
     "directory": "GX-Launcher",
+    "image": "game.png"
+  },
+  {
+    "name": "Half Life",
+    "directory": "halflife",
     "image": "game.png"
   },
   {
@@ -330,6 +400,11 @@
     "image": "game.png"
   },
   {
+    "name": "Hollow Knight",
+    "directory": "hollownight",
+    "image": "game.png"
+  },
+  {
     "name": "Idle Breakout",
     "directory": "idlebreakout",
     "image": "game.png"
@@ -350,6 +425,11 @@
     "image": "game.png"
   },
   {
+    "name": "Kour.io",
+    "directory": "kour",
+    "image": "game.png"
+  },
+  {
     "name": "Learn to Fly",
     "directory": "learntofly",
     "image": "game.png"
@@ -357,6 +437,11 @@
   {
     "name": "Learn to Fly 2",
     "directory": "learntofly2",
+    "image": "game.png"
+  },
+  {
+    "name": "Learn to Fly 3",
+    "directory": "learntofly3",
     "image": "game.png"
   },
   {
@@ -395,6 +480,11 @@
     "image": "game.png"
   },
   {
+    "name": "Masked Forces Unlimited",
+    "directory": "maskedforces",
+    "image": "game.png"
+  },
+  {
     "name": "Metroid: Zero Mission",
     "directory": "metroidzeromission",
     "image": "game.png"
@@ -422,6 +512,11 @@
   {
     "name": "Moto X3M Spooky",
     "directory": "motox3m-spooky",
+    "image": "game.png"
+  },
+  {
+    "name": "Murder",
+    "directory": "murder",
     "image": "game.png"
   },
   {
@@ -560,6 +655,11 @@
     "image": "game.png"
   },
   {
+    "name": "Return Man 2",
+    "directory": "returnman2",
+    "image": "game.png"
+  },
+  {
     "name": "Rise Higher",
     "directory": "risehigher",
     "image": "game.png"
@@ -665,8 +765,18 @@
     "image": "game.png"
   },
   {
+    "name": "Station 141",
+    "directory": "station141",
+    "image": "game.png"
+  },
+  {
     "name": "Stickman Hook",
     "directory": "stickman-hook",
+    "image": "game.png"
+  },
+  {
+    "name": "Stick War",
+    "directory": "stickwar",
     "image": "game.png"
   },
   {
@@ -699,6 +809,16 @@
     "directory": "supersmashbros",
     "image": "game.png"
   },
+  {
+    "name": "Table Tennis",
+    "directory": "tabletennis",
+    "image": "game.png"
+  }, 
+  {
+    "name": "Tank Trouble 2",
+    "directory": "tanktrouble",
+    "image": "game.png"
+  }, 
   {
     "name": "This Is The Only Level",
     "directory": "thisistheonlylevel",
@@ -805,6 +925,11 @@
     "image": "game.png"
   },
   {
+    "name": "Warfare 1917",
+    "directory": "war1917",
+    "image": "game.png"
+  },
+  {
     "name": "Windows 11",
     "directory": "win11",
     "image": "game.png"
@@ -817,6 +942,11 @@
   {
     "name": "Windows XP",
     "directory": "xp",
+    "image": "game.png"
+  },
+  {
+    "name": "Whack Your Boss",
+    "directory": "whackyourboss",
     "image": "game.png"
   }
 ]
