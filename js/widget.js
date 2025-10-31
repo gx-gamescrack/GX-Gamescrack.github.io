@@ -1,6 +1,6 @@
 let firstLoadWidget = 1;
 let widgetOpen = 0;
-let crate;
+let crate; // Add this variable to store the crate instance
 
 document.addEventListener("DOMContentLoaded", () => {
     let button = document.createElement("button");
@@ -24,6 +24,16 @@ function loadCrate() {
     crate = new Crate({
         server: '1426041062094536757',
         channel: '1426042531929391104', 
-        color: "#8B0000"
+        color: "#8B0000", // Changed from transparent to your theme color
+        glyph: ["data:;base64,=", "100%"]
     });
+    crate.toggle(true);
+    
+    // Give it a moment to load before trying to remove the element
+    setTimeout(() => {
+        let element = document.querySelector('[aria-label="Discord chat embed"]');
+        if(element) {
+            element.remove();
+        }
+    }, 100);
 }
