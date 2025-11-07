@@ -190,8 +190,6 @@ label { font-size: 20px; padding-left: 5px; }
 #toast h1 { font-size: 20px; text-align: center; }
 #toast p { font-size: 16px; text-align: center; }
 
-/* Discord button */
-#discord { position: fixed; bottom: 10px; right: 10px; width: 56px; height: 56px; z-index: 199975; border-radius: 100%; background-image: url("/img/gx-gameschat.png"); background-size: 60%; background-position: center; background-repeat: no-repeat; border-width: 0; }
 
 /* ------------------- THEMES ------------------- */
 
@@ -228,5 +226,6 @@ body[theme=mountains], body[theme=mountainsfalse] { --inputbg:#d37f7f; --inputbo
 body[theme=vaporwave], body[theme=vaporwavefalse] { --inputbg:#4b2d64; --inputborder:#74568d; --uibg:#51166d; --textcolor:#fff; --bg:url("/img/backgrounds/vaporwave_theme.jpg"), #61437a; --shadow:0px 0px 4px #000000; }
 body[theme=seraph], body[theme=seraphfalse] { --inputbg:#000; --inputborder:#fff; --uibg:#000; --textcolor:#fff; --bg:url("/img/backgrounds/seraph_theme.png"), #1c1a1e; --shadow:0px 0px 4px #fff; }
 body[theme=nighttime], body[theme=nighttimefalse] { --inputbg:#29374d; --inputborder:#fff; --uibg:#29374d; --textcolor:#fff; --bg:url("/img/backgrounds/nighttime_theme.png"), #28272a; --shadow:0px 0px 4px #fff; }
+
 
 
