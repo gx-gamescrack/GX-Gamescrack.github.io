@@ -10,6 +10,11 @@
     "image": "game.png"
   },
   {
+    "name": "GX-GamesCrack Archive",
+    "directory": "GX-GamesCrack V1",
+    "image": "game.png"
+  },
+  {
     "name": "2048",
     "directory": "2048",
     "image": "game.png"
@@ -1055,6 +1060,7 @@
     "image": "game.png"
   }
 ]
+
 
 
 
