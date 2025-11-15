@@ -1,79 +1,33 @@
-<!doctype html>
+<!doctype HTML>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta http-equiv="refresh" content="5;url=https://gxgamescrackdiretctory1.on.drv.tw/UGS%20Files/clcrossyroad.html" />
-  <title>Redirecting…</title>
-  <style>
-    body {
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      background: #0c0c0c;
-      color: #fff;
-    }
-    .card {
-      text-align: center;
-      padding: 24px;
-      border-radius: 12px;
-      background: #111;
-      border: 2px solid #8B0000;
-      box-shadow: 0 0 20px rgba(139, 0, 0, 0.3);
-      max-width: 420px;
-    }
-    button {
-      margin-top: 12px;
-      padding: 10px 16px;
-      border-radius: 8px;
-      border: 0;
-      cursor: pointer;
-      background: #8B0000;
-      color: #fff;
-      font-weight: 600;
-      transition: background 0.2s ease-in-out;
-    }
-    button:hover {
-      background: #6B0000;
-    }
-    small {
-      color: #ccc;
-      display: block;
-      margin-top: 8px;
-    }
-  </style>
+  <base href="https://rawcdn.githack.com/bubbls/youtube-playables/3fa3b6dbb7675ba6d708abe1ba272e67607ba807/crossy-road/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crossy Road</title>
+
+  <!-- Load the YouTube Playables SDK as the first script -->
+  <script src="https://rawcdn.githack.com/bubbls/youtube-playables/main/ytgame.js" nonce="2KHli9LrFFijH2jCb5SkMw"></script>
+
+  <!-- Load game's CSS file. -->
+  <link rel="stylesheet" href="style.css" nonce="2KHli9LrFFijH2jCb5SkMw">
+
+   <!-- Core libraries like Three.js -->
+  <script src="scripts/three.min.js" nonce="2KHli9LrFFijH2jCb5SkMw"></script>
+
+  <!-- Main game script -->
+  <script src="scripts/game.min.js" nonce="2KHli9LrFFijH2jCb5SkMw"></script>
+
+  <!-- Additional scripts -->
+  <script src="scripts/extra.min.js" nonce="2KHli9LrFFijH2jCb5SkMw"></script>
+  <script src="scripts/bootstrap.min.js" nonce="2KHli9LrFFijH2jCb5SkMw"></script>
 </head>
+
 <body>
-  <div class="card" role="main" aria-live="polite">
-    <h2>Opening link…</h2>
-    <p>If it didn’t redirect automatically, click the button below.</p>
-    <button id="openBtn">Open Link</button>
-    <small>Automatic attempt will open an <code>about:blank</code> tab, then navigate it to the target URL.</small>
-  </div>
+  <canvas id="canvas"></canvas>
+  <div id="build-number"></div>  <!-- delete this when not in testing -->
 
-  <script>
-    const targetUrl = 'https://gxgamescrackdiretctory1.on.drv.tw/UGS%20Files/clcrossyroad.html';
-
-    function tryOpenAboutBlankThenNavigate() {
-      try {
-        const w = window.open('about:blank', '_blank');
-        if (w && !w.closed) {
-          w.location.href = targetUrl;
-          return true;
-        }
-      } catch (e) {}
-      window.location.replace(targetUrl);
-      return false;
-    }
-
-    window.addEventListener('load', () => {
-      setTimeout(tryOpenAboutBlankThenNavigate, 50);
-    });
-
-    document.getElementById('openBtn').addEventListener('click', tryOpenAboutBlankThenNavigate);
-  </script>
+  
 </body>
 </html>

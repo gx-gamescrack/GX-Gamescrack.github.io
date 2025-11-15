@@ -55,6 +55,11 @@
     "image": "game.png"
   },
   {
+    "name": "Bad Piggies",
+    "directory": "badpiggies",
+    "image": "game.png"
+  },
+  {
     "name": "Baldi's Basics",
     "directory": "baldis-basics",
     "image": "game.png"
@@ -100,67 +105,67 @@
     "image": "game.png"
   },
   {
-    "name": "Pokemon White",
+    "name": "Pokemon Blue",
     "directory": "pokemon3",
     "image": "game.png"
   },
   {
-    "name": "Pokemon White 2",
+    "name": "Pokemon Emerald",
     "directory": "pokemon4",
     "image": "game.png"
   },
   {
-    "name": "Pokemon Red",
+    "name": "Pokemon Fire Red",
     "directory": "pokemon5",
     "image": "game.png"
   },
   {
-    "name": "Pokemon Blue",
+    "name": "Pokemon Gold",
     "directory": "pokemon6",
     "image": "game.png"
   },
   {
-    "name": "Pokemon yellow",
+    "name": "Pokemon Green",
     "directory": "pokemon7",
     "image": "game.png"
   },
   {
-    "name": "Pokemon Green",
+    "name": "Pokemon Leaf Green",
     "directory": "pokemon8",
     "image": "game.png"
   },
   {
-    "name": "Pokemon Leaf Green",
+    "name": "Pokemon Red",
     "directory": "pokemon9",
     "image": "game.png"
   },
   {
-    "name": "Pokemon Fire Red",
+    "name": "Pokemon Ruby",
     "directory": "pokemon10",
     "image": "game.png"
   },
   {
-    "name": "Pokemon Ruby",
+    "name": "Pokemon Sapphire",
     "directory": "pokemon11",
     "image": "game.png"
   },
   {
-    "name": "Pokemon Sapphire",
+    "name": "Pokemon Silver",
     "directory": "pokemon12",
     "image": "game.png"
   },
   {
-    "name": "Pokemon Silver",
+    "name": "Pokemon White",
     "directory": "pokemon13",
     "image": "game.png"
   },
   {
-    "name": "Pokemon Gold",
+    "name": "Pokemon White 2",
     "directory": "pokemon14",
     "image": "game.png"
   },
     {
-    "name": "Pokemon Emerald",
+    "name": "Pokemon Yellow",
     "directory": "pokemon15",
     "image": "game.png"
   },
@@ -285,6 +290,11 @@
     "image": "game.png"
   },
   {
+    "name": "Doom WASM",
+    "directory": "doom-wasm",
+    "image": "game.png"
+  },
+  {
     "name": "Drift Boss",
     "directory": "drift-boss",
     "image": "game.png"
@@ -390,6 +400,11 @@
     "image": "game.png"
   },
   {
+    "name": "Friday Night Funkin",
+    "directory": "fnf",
+    "image": "game.png"
+  },
+  {
     "name": "Fruit Ninja",
     "directory": "fruitninja",
     "image": "game.png"
@@ -430,8 +445,18 @@
     "image": "game.png"
   },
   {
+    "name": "Happy Wheels",
+    "directory": "happywheels",
+    "image": "game.png"
+  },
+  {
     "name": "Helix Jump",
     "directory": "helixjump",
+    "image": "game.png"
+  },
+  {
+    "name": "Hextris",
+    "directory": "hextris",
     "image": "game.png"
   },
   {
@@ -520,11 +545,6 @@
     "image": "game.png"
   },
   {
-    "name": "Kick That Buddy",
-    "directory": "kickthatbuddy",
-    "image": "game.png"
-  },
-  {
     "name": "Kour.io",
     "directory": "kour",
     "image": "game.png"
@@ -557,6 +577,11 @@
   {
     "name": "Little Alchemy",
     "directory": "littlealchemy",
+    "image": "game.png"
+  },
+  {
+    "name": "Madalin Stunt Cars
+    "directory": "madalincars
     "image": "game.png"
   },
   {
@@ -617,6 +642,11 @@
   {
     "name": "Murder",
     "directory": "murder",
+    "image": "game.png"
+  },
+  {
+    "name": "OvO",
+    "directory": "ovo",
     "image": "game.png"
   },
   {
@@ -740,6 +770,11 @@
     "image": "game.png"
   },
   {
+    "name": "Rocket Soccer",
+    "directory": "rocketleague",
+    "image": "game.png"
+  }, 
+  {
     "name": "R.E.P.O",
     "directory": "repo",
     "image": "game.png"
@@ -825,6 +860,11 @@
     "image": "game.png"
   },
   {
+    "name": "Slope Plus",
+    "directory": "slopeplus",
+    "image": "game.png"
+  },
+  {
     "name": "Slope",
     "directory": "slope",
     "image": "game.png"
@@ -885,6 +925,11 @@
     "image": "game.png"
   },
   {
+    "name": "Stack",
+    "directory": "stack",
+    "image": "game.png"
+  },
+  {
     "name": "Sudoku",
     "directory": "sudo",
     "image": "game.png"
@@ -920,6 +965,11 @@
     "image": "game.png"
   }, 
   {
+    "name": "Temple Run 2",
+    "directory": "templerun2",
+    "image": "game.png"
+  },
+  {
     "name": "This Is The Only Level",
     "directory": "thisistheonlylevel",
     "image": "game.png"
@@ -930,8 +980,8 @@
     "image": "game.png"
   },
   {
-    "name": "Territorial.io",
-    "directory": "territorialio",
+    "name": "Ages Of Conflict",
+    "directory": "ageofconflict",
     "image": "game.png"
   },
   {
@@ -967,6 +1017,11 @@
   {
     "name": "The Impossible Quiz",
     "directory": "theimpossiblequiz",
+    "image": "game.png"
+  },
+  {
+    "name": "Tomb Of The Mask",
+    "directory": "tombofthemask",
     "image": "game.png"
   },
   {
@@ -1057,6 +1112,11 @@
   {
     "name": "Whack Your Boss",
     "directory": "whackyourboss",
+    "image": "game.png"
+  },
+  {
+    "name": "Worlds Hardest Game",
+    "directory": "worldshardestgame",
     "image": "game.png"
   }
 ]

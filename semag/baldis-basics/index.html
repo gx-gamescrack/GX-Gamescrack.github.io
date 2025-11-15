@@ -1,80 +1,29 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <!-- Meta refresh fallback (5 seconds) -->
-  <meta http-equiv="refresh" content="5;url=https://mystar46.github.io/baldis-basics/index.html" />
-  <title>Redirecting…</title>
-  <style>
-    body {
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      background: #0c0c0c;
-      color: #fff;
-    }
-    .card {
-      text-align: center;
-      padding: 24px;
-      border-radius: 12px;
-      background: #111;
-      border: 2px solid #8B0000;
-      box-shadow: 0 0 20px rgba(139, 0, 0, 0.3);
-      max-width: 420px;
-    }
-    button {
-      margin-top: 12px;
-      padding: 10px 16px;
-      border-radius: 8px;
-      border: 0;
-      cursor: pointer;
-      background: #8B0000;
-      color: #fff;
-      font-weight: 600;
-      transition: background 0.2s ease-in-out;
-    }
-    button:hover {
-      background: #6B0000;
-    }
-    small {
-      color: #ccc;
-      display: block;
-      margin-top: 8px;
-    }
-  </style>
-</head>
-<body>
-  <div class="card" role="main" aria-live="polite">
-    <h2>Opening link…</h2>
-    <p>If it didn’t redirect automatically, click the button below.</p>
-    <button id="openBtn">Open Link</button>
-    <small>Automatic attempt will open an <code>about:blank</code> tab, then navigate it to the target URL.</small>
-  </div>
+<html>
+  <head>
+    <title>Baldi's Basics</title>
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <script type="text/javascript" src="/js/main.js"></script>
 
-  <script>
-    const targetUrl = 'https://mystar46.github.io/baldis-basics/index.html';
-
-    function tryOpenAboutBlankThenNavigate() {
-      try {
-        const w = window.open('about:blank', '_blank');
-        if (w && !w.closed) {
-          w.location.href = targetUrl;
-          return true;
-        }
-      } catch (e) {}
-      window.location.replace(targetUrl);
-      return false;
-    }
-
-    window.addEventListener('load', () => {
-      setTimeout(tryOpenAboutBlankThenNavigate, 50);
-    });
-
-    document.getElementById('openBtn').addEventListener('click', tryOpenAboutBlankThenNavigate);
-  </script>
-</body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Nailington/3kh0-assets@aeb371b7e88542fd5e61eeed9e967a446d84fe1b/baldis-basics/TemplateData/style.css" />
+    <script src="https://cdn.jsdelivr.net/gh/Nailington/3kh0-assets@aeb371b7e88542fd5e61eeed9e967a446d84fe1b/baldis-basics/TemplateData/UnityProgress.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nailington/3kh0-assets@aeb371b7e88542fd5e61eeed9e967a446d84fe1b/baldis-basics/baldi.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "https://rawcdn.githack.com/Nailington/3kh0-assets/aeb371b7e88542fd5e61eeed9e967a446d84fe1b/baldis-basics/baldi.json", {
+        onProgress: UnityProgress,
+        Module: {
+          onRuntimeInitialized: function () {
+            UnityProgress(gameInstance, "complete");
+          },
+        },
+      });
+    </script>
+  </head>
+  <body style="margin: 0;">
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px; padding: 0px; margin: 0px; border: 0px; position: relative; background: rgb(35, 31, 32);">
+        <div id="gameContainer" style="width: 800px; height: 560px; margin: auto;"></div>
+      </div>
+      <script src="firebase-app.js"></script>
+    </div>
+  </body>
 </html>
