@@ -430,7 +430,7 @@
     "image": "game.png"
   },
   {
-    "name": "GX-Launcher",
+    "name": "Minecraft Launcher",
     "directory": "GX-Launcher",
     "image": "game.png"
   },
@@ -1120,6 +1120,7 @@
     "image": "game.png"
   }
 ]
+
 
 
 
